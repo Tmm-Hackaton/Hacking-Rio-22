@@ -1,11 +1,19 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import "./MainButton.css"
+import * as React from "react";
+import "./MainButton.css";
+import { Link } from "react-router-dom";
 
-export const MainButton =() => {
+export const MainButton = () => {
   return (
-    <Button className='btn' variant="contained" disableElevation>
-      Entrar
-    </Button>
+ <> 
+   <Link to={"/guias"}>
+   
+   
+    <button
+        className="btn"      
+      >
+        Entrar
+      </button>   
+     </Link>
+    </>
   );
-}
+};

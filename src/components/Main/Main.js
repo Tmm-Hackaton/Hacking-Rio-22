@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 import "./Main.css"
 import { useState } from 'react';
 import { MainButton } from '../MainButton/MainButton';
+
 export const Main = () => {
   const [Email, setName] = useState("");
   const handleChange = (event) => {
@@ -40,7 +41,9 @@ export const Main = () => {
         Termos de Uso</span> e que está ciente da nossa
          <span> Política de Privacidade</span></p>
     </div>
+    
     </>
+   
     
   );
 }

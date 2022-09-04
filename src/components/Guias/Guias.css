@@ -1,0 +1,23 @@
+.guias{
+    color: white;
+}
+.icons{
+    color: white;
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-weight: 400;
+}
+.btn2{
+    margin-top: 20px;   
+    background-color: #8846a7;
+    border-radius: 20px;
+    width: 200px;
+    height: 37px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

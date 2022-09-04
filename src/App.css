@@ -10,6 +10,7 @@
   align-items: center;
   width: 100%;
   height: 100vh; 
+  background-image: linear-gradient( to bottom,#3c9cd6, #8846a7 );
 }
 .image{
   display: flex;
@@ -18,8 +19,7 @@
   margin-top: -150px;
 }
 .image img{ 
-  width: 50%;
-  margin-bottom: -170px;
+  width: 30%; 
 }
 .box{
   display: flex;
@@ -31,10 +31,10 @@
   width: 10%;
   margin-top: 20px;
 }
+
 @media (max-width: 600px){
   .image img{    
-    width: 60%; 
-    margin-bottom: -100px;
+    width: 80%;    
 }
 .hr{
   width: 30%;
