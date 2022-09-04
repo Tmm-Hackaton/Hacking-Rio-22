@@ -15,11 +15,10 @@
 .image{
   display: flex;
   justify-content: center;
-  align-items: center; 
-  margin-top: -150px;
+  align-items: center;  
 }
 .image img{ 
-  width: 30%; 
+  width: 20%; 
 }
 .box{
   display: flex;
