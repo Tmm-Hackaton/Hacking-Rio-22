@@ -1,11 +1,11 @@
-import "./Guias.css"
-import { BsBell } from "react-icons/bs";
+import "./Guides.css"
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import { Link } from "react-router-dom";
+
 
 export const Guias = () =>{
 
@@ -59,10 +59,7 @@ export const Guias = () =>{
 
 
     return(<>
-        {/* <div className="icons">
-            <BsBell/>
-            
-        </div> */}
+       
         <div className="guias">
         <h1> Olá, Marina.<p>O que iremos fazer hoje?</p></h1>
        
@@ -70,7 +67,7 @@ export const Guias = () =>{
         <br/>
         <br/>
         <br/>
-        <Box sx={{ width: 800, height: 450, overflowY: 'scroll', color:"secondary" }}>
+        <Box sx={{ width: 700, height: 550, overflowY: 'scroll', color:"secondary" }}>
       <ImageList variant="masonry" cols={4} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>

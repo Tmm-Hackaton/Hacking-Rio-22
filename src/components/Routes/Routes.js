@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Guias } from "../Guias/Guias"
+import { Guias } from "../Guides/Guides"
 import { Main } from "../Main/Main"
 
 export const AppRoutes = () => {
